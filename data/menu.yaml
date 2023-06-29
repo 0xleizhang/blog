@@ -1,0 +1,15 @@
+entries:
+  - title: me
+    entries:
+      - title: >-
+          Fullstack software engineer.
+      - title: github repo
+        url: 'https://github.com/seven4x'
+      - title: >-
+          keep in touch: <a href="https://twitter.com/KamaleiZhang" target="_blank">twitter</>, <a href="index.xml">rss</a>
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: posts
