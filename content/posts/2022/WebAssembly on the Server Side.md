@@ -1,5 +1,5 @@
 ---
-title: webAssembly on server side 的应用场景
+title: webAssembly 在服务端的的应用场景
 date: 2022-12-21 14:08:00
 tags: ["云原生","webassembly"]
 categories: ["Tech"]

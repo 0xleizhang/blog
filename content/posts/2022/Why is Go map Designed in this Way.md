@@ -1,11 +1,11 @@
 ---
-title: go map 为什么这么设计 背后的底层逻辑
+title: go map 为什么这么设计?
 date: 2022-12-02 17:53:53
-tags: ["Go"]
-categories: ["Go"]
+tags: ["go"]
+categories: ["go"]
 ---
 
-## [go map for 循环为什么是无序的？](https://qcrao91.gitbook.io/go/map/map-zhong-de-key-wei-shi-mo-shi-wu-xu-de)
+## go map for 循环为什么是无序的？
 下面的示例代码，每次输出的结果大概率是不一样的。
 
 ```

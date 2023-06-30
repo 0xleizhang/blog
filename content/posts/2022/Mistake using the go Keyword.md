@@ -1,5 +1,5 @@
 ---
-title: 通过go关键字run一个go routine的坑
+title: 通过 go 关键字创建 routine 的坑
 date: 2022-11-07 14:24:00
 tags: ['go','编程语言']
 ---

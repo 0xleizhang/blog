@@ -1,5 +1,5 @@
 ---
-title: 云原生12要素第九条与Kafka
+title: 云原生12要素第九条与 Kafka
 date: 2022-11-11 11:30:00
 tags: ['go','云原生','kafka']
 ---
