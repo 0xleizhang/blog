@@ -3,13 +3,18 @@ entries:
     entries:
       - title: >-
           Full-Stack Engineer
-      - title: github profile
-        url: 'https://github.com/seven4x'
-      - title: >-
-          keep in touch: <a href="https://twitter.com/KamaleiZhang" target="_blank">twitter</>, <a href="index.xml">rss</a>
-  - title: all posts
+      - title: 
+         <a href='https://github.com/seven4x'>github</a>,<a href="https://twitter.com/KamaleiZhang" target="_blank">twitter<a/>
+    
+  - title: recent posts
     post_list:
       limit: 5
       show_more: true
       show_more_text: See archive...
       show_more_url: posts
+  - title: this blog
+    entries:
+      - title: >-
+          <a href="index.xml">rss</a>  <a href="tags">tags</a>
+      - title: >-
+          all under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, all rights over which reserved
