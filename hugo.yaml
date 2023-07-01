@@ -1,9 +1,8 @@
-baseURL: 'https://bitseatech.cn'
+baseURL: 'https://leilog.io'
 languageCode: 'zh-CN'
 title: Lei's blog
 
 theme: nostyleplease
-googleAnalytics: G-D4394W9EQZ
 disqusShortname: leilog
 markup:
   tableOfContents:
