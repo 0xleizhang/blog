@@ -4,7 +4,6 @@ date: 2023-06-29T17:12:21+08:00
 draft: true
 tags: ['agile']
 category: ['agile']
-slug: "how-do-we-sprint-planning"
 ---
 
 # planning 的目的
