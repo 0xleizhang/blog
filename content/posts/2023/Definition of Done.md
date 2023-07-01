@@ -4,6 +4,7 @@ date: 2023-04-24T23:42:14+08:00
 draft: false
 tags: ['agile']
 category: ['agile']
+show_comments: true
 ---
 
 I built the Dod for my team.

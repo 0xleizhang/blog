@@ -15,6 +15,4 @@ server:
     - for: /*
       values:
         Content-Security-Policy: >-
-          default-src 'self' 'unsafe-eval' 'unsafe-inline'
-          www.google-analytics.com www.googletagmanager.com fonts.googleapis.com
-          maxcdn.bootstrapcdn.com fonts.gstatic.com;
+         img-src *; script-src * 'unsafe-inline';

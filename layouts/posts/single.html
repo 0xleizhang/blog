@@ -3,10 +3,17 @@
 
 <article>
     <p class="post-meta">
-        <time datetime="{{ .Date }}">
-            {{ .Date | time.Format site.Params.theme_config.date_format }}
-        </time>
+        {{ $date := .Date | time.Format site.Params.theme_config.date_format }}
+        {{ $lastmod := .Lastmod | time.Format site.Params.theme_config.date_format }}
+        {{ if ne $lastmod $date }}
+            <time datetime="{{ .Lastmod }}">edited on {{ $lastmod }}</time>
+        {{ else }}
+            <time datetime="{{ .Date }}">
+                {{ $date }}
+            </time>
+        {{ end }}
     </p>
+    
 
     <h1>{{ .Title }}</h1>
 
@@ -20,7 +27,8 @@
 </article>
 
 <hr/>
-{{ template "_internal/disqus.html" . }}
-
+{{ if .Params.show_comments }}
+  {{ template "_internal/disqus.html" . }}
+{{ end }}
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
 {{ end }}

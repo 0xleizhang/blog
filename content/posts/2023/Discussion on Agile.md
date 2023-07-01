@@ -3,6 +3,7 @@ title: 敏捷实践的一些建议
 date: 2023-03-29 17:36:16
 tags: ["敏捷"]
 categories: ["管理",'敏捷']
+lastmod: 2023-07-02 02:00:16
 ---
 
 我在team slack thread的发言。
