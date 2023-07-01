@@ -4,10 +4,10 @@
   img {
     filter: invert(1);
   }
-  img.ioda, img.image-refresh, img.reaction-item__image,img.gif-picker__category-gif{
-    filter: invert(0);
+  img.image-refresh, img.reaction-item__image,img.gif-picker__category-gif,div.gif-picker__image > img {
+    filter: invert(1);
   }
-  div.gif-picker__image > img {
+  img.ioda {
     filter: invert(0);
   }
 }
