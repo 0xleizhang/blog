@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{ partial "back_link.html" .}}
+
+<article>
+    <p class="post-meta">
+        <time datetime="{{ .Date }}">
+            {{ .Date | time.Format site.Params.theme_config.date_format }}
+        </time>
+    </p>
+
+    <h1>{{ .Title }}</h1>
+
+    {{ if .Params.toc }}
+        <aside {{ if .Params.tocBorder }} class="toc" {{ end }}>
+            {{ .TableOfContents }}
+        </aside>
+    {{ end }}
+
+    {{ .Content }}
+</article>
+
+<hr/>
+{{ template "_internal/disqus.html" . }}
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+{{ end }}

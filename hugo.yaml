@@ -1,6 +1,12 @@
-baseURL: 'http://example.org/'
-languageCode: 'en-us'
+baseURL: 'https://bitseatech.cn'
+languageCode: 'zh-CN'
 title: Lei's blog
 
 theme: nostyleplease
 googleAnalytics: G-D4394W9EQZ
+disqusShortname: leilog
+markup:
+  tableOfContents:
+    startLevel: 1
+    endLevel: 5
+    ordered: false
