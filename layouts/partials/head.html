@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-eval' 'unsafe-inline' www.google-analytics.com www.googletagmanager.com *.disqus.com *.disquscdn.com i.creativecommons.org;">
+    <meta http-equiv="Content-Security-Policy" content="Content-Security-Policy: default-src 'self'; img-src *;script-src *">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     {{ if .IsPage }} <meta name="description" content="{{ .Summary }}">  {{ end }}
     <title>
