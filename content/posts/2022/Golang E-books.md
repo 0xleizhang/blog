@@ -2,6 +2,7 @@
 
 title: go 电子书
 date: 2022-11-04 10:03:00
+categories: ['技术']
 tags: ['go','编程语言']
 
 ---

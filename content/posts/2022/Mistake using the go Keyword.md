@@ -1,6 +1,7 @@
 ---
 title: 通过 go 关键字创建 routine 的坑
 date: 2022-11-07 14:24:00
+categories: ['技术']
 tags: ['go','编程语言']
 ---
 

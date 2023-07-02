@@ -2,8 +2,8 @@
 title: "我们如何做 sprint planning"
 date: 2023-06-29T17:12:21+08:00
 draft: true
+categories: ['职场']
 tags: ['agile']
-category: ['agile']
 ---
 
 # planning 的目的

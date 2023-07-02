@@ -1,8 +1,8 @@
 ---
 title: 我的IT从业经历
 date: 2021-12-22 13:57:53
-tags: ["职场"]
 categories: ["职场"]
+tags: ["职场"]
 toc: true
 tocBorder: true
 ---

@@ -2,8 +2,8 @@
 title: "Definition of Done"
 date: 2023-04-24T23:42:14+08:00
 draft: false
+categories: ['职场']
 tags: ['agile']
-category: ['agile']
 show_comments: true
 ---
 

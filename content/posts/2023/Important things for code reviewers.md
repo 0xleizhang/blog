@@ -2,8 +2,8 @@
 title: "写给 code reviewers"
 date: 2023-05-08T23:47:14+08:00
 draft: false
-tags: ['coding','agile']
-category: ['agile']
+categories: ['职场']
+tags: ['coding','agile','code review','敏捷']
 ---
 
 1. 熟悉github pull request 工具

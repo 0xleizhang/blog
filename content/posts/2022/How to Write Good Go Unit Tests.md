@@ -2,6 +2,7 @@
 
 title: 如何写好 go unit test?
 date: 2022-11-07 11:58:00
+categories: ['技术']
 tags: ['go','编程语言']
 
 ---

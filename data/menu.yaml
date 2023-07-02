@@ -15,5 +15,5 @@ entries:
   - title: this blog
     entries:
       - title: >-
-          <a href="index.xml">rss</a>  <a href="tags">tags</a>
+          <a href="index.xml">rss</a> <a href="tags">tags</a> <a href="categories">categories</a>
       

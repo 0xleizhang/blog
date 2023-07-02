@@ -1,6 +1,7 @@
 ---
 title: Is eBPF powered service mesh the future?
 date: 2022-08-10 18:54:00
+categories: ['技术']
 tags: ['云原生','service mesh']
 ---
 

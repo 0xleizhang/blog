@@ -1,8 +1,8 @@
 ---
 title: Kafka 受益于现代操作系统的地方
 date: 2022-12-12 12:00:00
+categories: ['技术']
 tags: ["Kafka","操作系统"]
-categories: ["Tech"]
 ---
 
 

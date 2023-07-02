@@ -1,8 +1,8 @@
 ---
 title: webAssembly 在服务端的的应用场景
 date: 2022-12-21 14:08:00
+categories: ['技术']
 tags: ["云原生","webassembly"]
-categories: ["Tech"]
 ---
 
 
