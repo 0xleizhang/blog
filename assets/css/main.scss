@@ -1,31 +1,36 @@
-// -------------- THEME SWITCHER -------------- //
-@mixin dark-appearance {
-  filter: invert(1);
-  img {
-    filter: invert(1);
-  }
-  img.ioda {
-    filter: invert(0);
-  }
+:root {
+  --bg-color: white;
+  --text-color: black;
 }
 
-body[a="dark"] { @include dark-appearance; }
-
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: white;
+    --text-color: black;
+  }
+}
 
 @media (prefers-color-scheme: dark) {
-  body[a="auto"] { @include dark-appearance; }
+  :root {
+    --bg-color: black;
+    --text-color: white;
+  }
+
+  a {
+    color: yellow;
+  }
 }
-// -------------------------------------------- //
 
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background: white; }
-
-html { height: 100%; }
+html,
+body {
+  background: var(--bg-color);
+}
 
 body {
-  color: black;
+  color: var(--text-color);
   font-family: monospace;
   font-size: 16px;
   line-height: 1.4;
@@ -34,17 +39,60 @@ body {
   overflow-wrap: break-word;
 }
 
-.post-meta { text-align: right; }
+.toc {
+  border: thin solid var(--text-color);
+  padding: 1rem;
+}
 
-h2, h3, h4, h5, h6 { margin-top: 3rem; }
+hr {
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    var(--bg-color),
+    var(--text-color),
+    var(--bg-color)
+  );
+  background-size: 100% 100%;
+}
 
-hr { margin: 2rem 0; }
+pre {
+  background: var(--text-color);
+  padding: 1em;
+  overflow-x: auto; /* Fix pre content overflowing parent without scroll bar */
+}
 
-p { margin: 1rem 0; }
+table,
+th,
+td {
+  border: thin solid var(--text-color);
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
 
-li { margin: 0.4rem 0; }
+code {
+  color: var(--bg-color);
+  background: var(--text-color);
+  font-size: 80%;
+  padding: 0.1em 0.2em;
+  font-size: 90%;
+}
 
-*:target { background: yellow; }
+blockquote {
+  font-style: italic;
+  border: thin solid var(--text-color);
+  padding: 1rem;
+
+  p {
+    margin: 0;
+  }
+}
+
+html {
+  height: 100%;
+}
+.post-meta {
+  text-align: right;
+}
 
 .w {
   max-width: 640px;
@@ -52,37 +100,28 @@ li { margin: 0.4rem 0; }
   padding: 4rem 2rem;
 }
 
-.toc {
-  border: thin solid black;
-  padding: 1rem;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 3rem;
 }
 
 hr {
-  height: 1px;
-  background-image: linear-gradient(to right, white, black, white);
-  background-size: 100% 100%;
+  margin: 2rem 0;
 }
 
-pre {
-  background: black;
-  padding: 1em;
-  overflow-x: auto; /* Fix pre content overflowing parent without scroll bar */
+p {
+  margin: 1rem 0;
 }
 
-table { width: 100%; }
-
-table, th, td {
-  border: thin solid black;
-  border-collapse: collapse;
-  padding: 0.4rem;
+li {
+  margin: 0.4rem 0;
 }
 
-code {
-  color: white;
-  background: black; 
-  font-size: 80%;
-  padding: 0.1em 0.2em;
-  font-size: 90%;
+table {
+  width: 100%;
 }
 
 code.has-jax {
@@ -90,14 +129,6 @@ code.has-jax {
   background: inherit !important;
   border: none !important;
   font-size: 100%;
-}
-
-blockquote {
-  font-style: italic;
-  border: thin solid black;
-  padding: 1rem;
-
-  p { margin: 0; }
 }
 
 img {
