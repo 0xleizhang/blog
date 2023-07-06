@@ -1,9 +1,9 @@
 ---
 title: 敏捷实践的一些建议
 date: 2023-03-29 17:36:16
+lastmod: 2023-07-02 02:00:16
 categories: ['职场']
 tags: ["敏捷"]
-lastmod: 2023-07-02 02:00:16
 ---
 
 我在team slack thread的发言。
@@ -24,7 +24,6 @@ lastmod: 2023-07-02 02:00:16
 sprint过程中允许建新卡到sprint，但是需要做到两点
 必要的解释这个ticket需要放在这个sprint做的原因。
 新建的ticket要告知team所有人，一般是通过Jira+slack集成 推送消息到slack channel.
-
 
 # 关于接卡
 
