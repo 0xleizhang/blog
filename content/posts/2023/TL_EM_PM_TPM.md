@@ -6,7 +6,7 @@ categories: ['职场']
 tags: ['组织','互联网']
 ---
 
-# Engineering manger 主要做什么
+# Engineering manager 主要做什么
 
 Engineering Manager 是一个技术领域的管理职位，主要负责管理技术团队和项目，确保团队按时完成任务和交付高质量的产品或服务。
 
