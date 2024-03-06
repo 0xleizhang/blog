@@ -2,15 +2,15 @@ entries:
   - title: me
     entries:
       - title: >-
-          Full-Stack Engineer
+          程序员 @<a href='https://github.com/seven4x'>Github</a>
       - title: 
-         <a href='https://github.com/seven4x'>github</a>,<a href="https://twitter.com/KamaleiZhang" target="_blank">twitter</a>
+         Up主 @<a href='https://space.bilibili.com/284623903/'>B站</a> @<a href='https://www.youtube.com/@kamaleizhang'>油管</a>
     
   - title: recent posts
     post_list:
       limit: 5
       show_more: true
-      show_more_text: See archive...
+      show_more_text: See More...
       show_more_url: posts
   - title: this blog
     entries:

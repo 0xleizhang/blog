@@ -1,5 +1,5 @@
 ---
-title: 一文搞懂 TL,EM,PM,TPM
+title: <s>一文搞懂 TL,EM,PM,TPM</s>
 date: 2023-07-28T15:59:00+08:00
 draft: false
 categories: ['职场']
