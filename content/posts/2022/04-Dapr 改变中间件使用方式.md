@@ -1,8 +1,9 @@
 ---
-title: Dapr 能否改变云原生时代使用中间件的方式？
+title: Dapr 改变中间件的使用方式
 date: 2022-07-22 15:52:00
 categories: ['技术']
 tags: ['云原生','内部分享']
+slug: dapr-change-the-middleware-used-style
 ---
 
 

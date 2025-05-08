@@ -1,8 +1,9 @@
 ---
-title: 云原生12要素第九条与 Kafka
+title: 云原生第九条要素与 Kafka
 date: 2022-11-11 11:30:00
 categories: ['技术']
 tags: ['go','云原生','kafka']
+slug: 12-factor-nine-with-kafka
 ---
 
 

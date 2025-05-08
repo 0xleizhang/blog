@@ -3,6 +3,7 @@ title: 通过 go 关键字创建 routine 的坑
 date: 2022-11-07 14:24:00
 categories: ['技术']
 tags: ['go','编程语言']
+slug: go-routine-holes
 ---
 
 虽然go提供了 go func (){} 可以直接起一个go routine运行，但是实际并不推荐这样用好像，这块知识有点模糊，网上搜不到相关内容，谈下我理解，希望大佬指明道路

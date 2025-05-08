@@ -1,10 +1,11 @@
 ---
-title: "Definition of Done"
+title: "Definition of Done Template"
 date: 2023-04-24T23:42:14+08:00
 draft: false
 categories: ['职场']
 tags: ['agile']
 show_comments: true
+slug: definition-of-done-template
 ---
 
 I built the Dod for my team.

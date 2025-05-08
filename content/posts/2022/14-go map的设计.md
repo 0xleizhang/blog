@@ -1,8 +1,9 @@
 ---
-title: go map 为什么这么设计?
+title: why go map design like this
 date: 2022-12-02 17:53:53
 categories: ['技术']
 tags: ["go"]
+slug: go-map-design
 ---
 
 ## go map for 循环为什么是无序的？

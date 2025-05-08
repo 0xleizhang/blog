@@ -1,10 +1,11 @@
 ---
-title: "我们如何做 sprint planning"
+title: "sprint planning 实践思考"
 date: 2023-07-06T22:43:00+08:00
 draft: false
 categories: ['职场']
 tags: ['agile','敏捷']
 show_comments: true
+slug: "sprint-planning-practice"
 ---
 
  

@@ -4,7 +4,7 @@ title: 云原生时代的 Java 项目
 date: 2022-09-01 16:32:00
 categories: ['技术']
 tags: ['云原生','Java']
-
+slug: java-project-in-cloud-native-era
 ---
 
 

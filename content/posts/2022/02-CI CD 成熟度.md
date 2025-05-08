@@ -3,6 +3,7 @@ title: CI/CD成熟度
 date: 2022-07-08 15:52:00
 categories: ['技术']
 tags: ['云原生','内部分享']
+slug: maturity-of-ci-cd
 ---
 
 云原生吹水Ep.2 来聊聊：你觉得现在所在的 team CI/CD 建设的怎么样？欢迎大家用表情投票

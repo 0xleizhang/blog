@@ -1,9 +1,10 @@
 ---
-title: "写给 code reviewers"
+title: "code reviewers 应知"
 date: 2023-05-08T23:47:14+08:00
 draft: false
 categories: ['职场']
 tags: ['coding','agile','code review','敏捷']
+slug: "code-reviewers-need-to-know"
 ---
 
 1. 熟悉github pull request 工具
