@@ -2,7 +2,7 @@ baseURL: 'https://leilog.io'
 languageCode: 'zh-CN'
 title: Lei's blog
 
-theme: nostyleplease
+theme: nostyle
 disqusShortname: leilog
 markup:
   tableOfContents:
